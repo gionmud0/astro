@@ -3,7 +3,7 @@ import { i } from "astro:content";
 export const blogSchema = i
    object({
     author: string().optional(),
-    pubDatetime: date().optional(),
+    pubDatetime: Date().toLocaleString().optional(),
     title: string().optional(),
     postSlug: string().optional(),
     featured: boolean().optional(),
