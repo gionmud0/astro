@@ -5,7 +5,7 @@ export const blogSchema = i
 
    object({
     author: string().optional(),
-    pubDatetime: Date().toISOString(),
+    pubDatetime: date().toISOString(),
     title: string().optional(),
     postSlug: string().optional(),
     featured: boolean().optional(),
