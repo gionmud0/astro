@@ -2,3 +2,13 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged
+{
+ comments: true,
+ dashboard: true {
+ adssnippets: true,
+ fonts: true,
+ additionalfeatures: true,
+},
+}
+ 
+ 
