@@ -1,9 +1,11 @@
 import { i } from "astro:content";
+import moment from 'moment'
 
 export const blogSchema = i
+
    object({
     author: string().optional(),
-    pubDatetime: Date().toLocaleString().optional(),
+    pubDatetime: Date().toISOString(),
     title: string().optional(),
     postSlug: string().optional(),
     featured: boolean().optional(),
