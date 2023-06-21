@@ -4,7 +4,7 @@
 npx lint-staged
 {
  comments: true,
- dashboard: true {
+ dashboard: true, url: */dashboard, auth: vercel {
  adssnippets: true,
  fonts: true,
  additionalfeatures: true,
