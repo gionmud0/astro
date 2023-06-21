@@ -1,5 +1,4 @@
 import { i } from "astro:content";
-import moment from 'moment'
 
 export const blogSchema = i
 
